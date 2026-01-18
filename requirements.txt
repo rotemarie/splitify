@@ -1,0 +1,25 @@
+# Core ML/Audio dependencies
+torch>=2.0.0
+torchaudio>=2.0.0
+numpy>=1.21.0
+
+# Data handling
+h5py>=3.7.0
+stempeg>=0.2.3
+
+# Audio processing
+soundfile>=0.12.1
+
+# Utilities
+tqdm>=4.64.0
+pyyaml>=6.0
+pickle5>=0.0.12
+
+# Optional: for better performance
+librosa>=0.10.0  # Alternative audio loading
+numba>=0.56.0    # Faster numerical operations
+
+# Development/Testing (optional)
+pytest>=7.0.0
+jupyter>=1.0.0
+matplotlib>=3.5.0  # For visualization
