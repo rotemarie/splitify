@@ -1,0 +1,41 @@
+# --- OS / editor junk ---
+.DS_Store
+.AppleDouble
+Thumbs.db
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+*.pyo
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+env/
+.env
+
+# --- Training artifacts / logs ---
+checkpoints/
+*.ckpt
+*.pth
+*.pt
+*.onnx
+*.log
+
+# --- Data / datasets (do not commit) ---
+musdb18/
+hdf5s/
+indexes/
+*.h5
+*.hdf5
+*.pkl
+*.npz
+
+# --- Archives / large downloads ---
+*.zip
+*.tar
+*.tar.gz
+*.tgz
+
+

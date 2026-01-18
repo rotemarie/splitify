@@ -1,0 +1,7 @@
+{
+  "musdb18_dataset_dir": "/Users/rotemar/Documents/Splitify/musdb18",
+  "workspace": "/Users/rotemar/Documents/Splitify",
+  "sample_rate": 44100,
+  "channels": 2,
+  "subsets": ["train", "test"]
+}
